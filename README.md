@@ -1,6 +1,14 @@
 Scrapper
 ====================
 
+### <a>Instalar dependencias</a>
+
+Ejecutar el siguiente comando para instalar las dependencias necesarias
+```
+npm install
+```
+### <a>Crear .env</a>
+
 Crea un archivo `.env` escribe esto con sus respectivos valores, tambien puede guiarse del archivo `.env.template`
 El valor prod en deployment hace que al generar la carpeta dist, los archivos generados sean minificados.
 
