@@ -3,10 +3,11 @@ import esbuild from 'esbuild';
 
 
 const entryPoints = [
-  'src/sw.js'
+  'src/sw.js','src/scripts/scrapCandidates.js','src/scripts/scrapper.js'
 ];
 
 const { DEPLOYMENT = 'DEV' } = process.env;
+
 
 esbuild.build({
   entryPoints,

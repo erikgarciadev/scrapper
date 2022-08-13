@@ -5,15 +5,18 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node config/esbuild.js"
+    "dev": "node config/esbuild.js",
+    "dbjson": "json-server --watch mock/db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "esbuild": "^0.14.54"
+    "esbuild": "^0.14.54",
+    "json-server": "^0.17.0"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.1"
   }
 }
